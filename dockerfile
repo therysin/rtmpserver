@@ -51,7 +51,7 @@ COPY --from=builder /usr/local/nginx /usr/local/nginx
 RUN mkdir -p /etc/nginx
 
 # Copy the NGINX configuration file
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /usr/local/nginx/conf
 
 # Expose RTMP port
 EXPOSE 1935
