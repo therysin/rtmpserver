@@ -1,3 +1,11 @@
+Very light image.
+
+Based on:
+```
+rtmp-server-module commit 2fb11df (aprrox March 2024) (https://github.com/arut/nginx-rtmp-module)
+nginx 1.26.1
+alpine 3.20
+```
 Example Compose Usage:
 
 ```
