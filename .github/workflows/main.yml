@@ -40,4 +40,4 @@ jobs:
           context: .
           platforms: linux/arm64, linux/amd64
           push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/rtmp:0.1
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/rtmp:latest
