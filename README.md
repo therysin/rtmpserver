@@ -19,3 +19,7 @@ services:
     ports:
       - 1935:1935
 ```
+Access your stream:
+```
+rtmp://<serverIP>:1935/live/<streamkey>
+```
